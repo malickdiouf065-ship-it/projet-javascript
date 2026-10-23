@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet Edabit - GoMyCode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Projet Edabit</h1>
+    <p>Défis de programmation JavaScript</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Objectif du projet</h2>
+      <p>
+        Résoudre des problèmes de programmation en JavaScript,
+        développer la logique et progresser à travers plusieurs niveaux.
+      </p>
+      <a href="https://edabit.com/" target="_blank" rel="noopener">
+        Visiter Edabit
+      </a>
+    </section>
+
+    <section>
+      <h2>Mes exercices</h2>
+      <p>Choisis une difficulté pour consulter les défis.</p>
+      <div class="filters">
+        <button data-level="tous">Tous</button>
+        <button data-level="facile">Facile</button>
+        <button data-level="moyen">Moyen</button>
+        <button data-level="difficile">Difficile</button>
+      </div>
+      <div id="exercises" class="exercises"></div>
+    </section>
+
+    <section class="progress">
+      <h2>Ma progression</h2>
+      <p id="score">0 exercice(s) réussi(s) sur 9</p>
+      <div class="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+      <button id="reset">Réinitialiser les résultats</button>
+    </section>
+
+    <section>
+      <h2>Conclusion</h2>
+      <p>
+        Ce projet me permet de pratiquer les fonctions, les conditions,
+        les tableaux, les boucles et les algorithmes.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projet d'apprentissage réalisé pour GoMyCode</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
